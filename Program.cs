@@ -32,6 +32,9 @@ namespace student_exercises
             var Elrond = new Instructor("Elrond", "Of Rivendale", "waterMagic", "helping hobbits", "Evening Cohort 51");
             var Beorn = new Instructor("Beorn", "Skinchanger", "bearsRcool", "transforming into a bear", "Day Cohort 52");
 
+            Console.WriteLine("Gandalf assigns bilbo FindRing");
+            Gandalf.AssignExercise(Bilbo, FindRing);
+            Bilbo.ListExercises();
         }
     }
 }
