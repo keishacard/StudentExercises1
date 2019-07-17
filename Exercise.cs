@@ -15,9 +15,11 @@ namespace student_exercises
         // }
 
         // constructor
-        // public Students()
-        // {
-        // }
+        public Exercise(string name, string language)
+        {
+            ExerName = name;
+            ExerLang = language;
+        }
 
     }
 }

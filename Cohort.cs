@@ -34,9 +34,11 @@ namespace student_exercises
 
 
         // constructor
-        // public Students()
-        // {
-        // }
+        public Cohort(string cohortName)
+        {
+            CohortName = cohortName;
+            // StudentList = new List<ListStudents>();
+        }
 
     }
 }

@@ -12,7 +12,7 @@ namespace student_exercises
 
         public string StudentSlack { get; set; }
 
-        public int StudentCohort { get; set; }
+        public string StudentCohort { get; set; }
 
         public List<Exercise> StudExerList { get; set; }
 
@@ -27,9 +27,14 @@ namespace student_exercises
         }
 
         // constructor
-        // public Students()
-        // {
-        // }
+        public Student(string firstName, string lastName, string studentSlack, string studentCohort)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+            StudentSlack = studentSlack;
+            StudentCohort = studentCohort;
+            StudExerList = new List<Exercise>();
+        }
 
     }
 }
