@@ -18,10 +18,10 @@ namespace student_exercises
 
 
         // method
-        // public void AssignExercise()
-        // {
-        //     assign exercise to student
-        // }
+        public void AssignExercise(Student studName, Exercise exName)
+        {
+            studName.AddExercise(exName);
+        }
 
         // constructor
         public Instructor(string firstName, string lastName, string instSlack, string instCohort, string instSpecialty)

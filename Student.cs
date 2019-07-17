@@ -26,6 +26,14 @@ namespace student_exercises
             StudExerList.Add(ExerName);
         }
 
+        public void ListExercises()
+        {
+            foreach (Exercise ex in StudExerList)
+            {
+                Console.WriteLine(ex.ExerName);
+            }
+        }
+
         // constructor
         public Student(string firstName, string lastName, string studentSlack, string studentCohort)
         {
