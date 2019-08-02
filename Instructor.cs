@@ -6,13 +6,13 @@ namespace student_exercises
     public class Instructor
     {
 
-        public string InstFirstName { get; set; }
+        public string FirstName { get; set; }
 
-        public string InstLastName { get; set; }
+        public string LastName { get; set; }
 
         public string InstSlack { get; set; }
 
-        public string InstCohort { get; set; }
+        public string cohort { get; set; }
 
         public string InstSpecialty { get; set; }
 
@@ -24,12 +24,12 @@ namespace student_exercises
         // }
 
         // constructor
-        public Instructor(string firstName, string lastName, string instSlack, string instCohort, string instSpecialty)
+        public Instructor(string firstName, string lastName, string instSlack, string Cohort, string instSpecialty)
         {
-            InstFirstName = firstName;
-            InstLastName = lastName;
+            FirstName = firstName;
+            LastName = lastName;
             InstSlack = instSlack;
-            InstCohort = instCohort;
+            Cohort = cohort;
             InstSpecialty = instSpecialty;
         }
 
